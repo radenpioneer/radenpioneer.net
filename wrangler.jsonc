@@ -4,6 +4,7 @@
 	"compatibility_flags": ["global_fetch_strictly_public"],
 	"name": "radenpioneernet",
 	"main": "@astrojs/cloudflare/entrypoints/server",
+	"workers_dev": false,
 	"assets": {
 		"directory": "./dist",
 		"binding": "ASSETS"
